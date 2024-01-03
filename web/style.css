@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto';
+}
+
+body {
+    background: none !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    font-size: 20px;
+    padding: 16px;
+    color: white;
+    background-color: rgb(44, 44, 44);
+    border-radius: 8px;
+}
+
+p {
+    transition: all 0.2s;
+}
+
+p:hover {
+    text-decoration: underline;
+    text-shadow: 1px 1px black;
+}
+
+input {
+    background-color: rgba(44, 62, 80,1.0);
+    color: white;
+    outline: none;
+    border: none;
+    padding: 8px;
+}
+
+#questions {
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+#questions::-webkit-scrollbar {
+    width: 2px;
+}
+
+#questions::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+#questions::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+}
+
+textarea {
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    padding: 16px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.466);
+}
+
+#buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    padding: 16px;
+    margin: 0 8px;
+    font-size: 24px;
+    text-shadow: 0px 0px 11px rgba(255, 255, 255, 0.281);
+}
+
+button#submit {
+    background-color: rgba(41, 128, 185, 0.4);
+}
+
+button#close {
+    background-color: rgba(192, 57, 43, 0.4);
+}
