@@ -91,7 +91,7 @@ else
             {
                 ["title"] = title,
                 ["description"] =  ""..message.."",
-                ["color"] = color,
+                ["color"] = 3447003,
                 ["footer"] ={
                     ["text"] = os.date("%c").." (Server Time).",
                 },
